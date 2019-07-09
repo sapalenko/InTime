@@ -1,0 +1,14 @@
+.aside {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 380px;
+    flex-shrink: 0;
+}
+
+.aside-title {
+    color: #282b2f;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 54px;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,39 @@
+.header {
+    margin-bottom: 20px;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f8fb;
+    padding: 31px 83px 29px 82px;
+    border: 1px solid #e0e9f0;
+}
+
+.logo {
+    color: #009688;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 22px;
+}
+
+.logo .in {
+    color: #000000;
+}
+
+.link-header {
+    text-decoration: none;
+}
+
+.link:hover {
+    color: #000101;
+    text-decoration: underline;
+}
+
+img {
+    margin: 12px 15px;
+}
+
+.header-bottom {
+    border: 1px solid #e0e9f0;
+}

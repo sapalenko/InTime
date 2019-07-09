@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 54px;
+}
+.nav .nav-item {
+    color: #282b2f;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav .nav-item:hover {
+    color: #009688;
+    text-decoration: underline;
+    transition: 0.3s;
+}

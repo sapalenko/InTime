@@ -1,0 +1,52 @@
+.section-hero{
+    margin-bottom: 66px;
+}
+.section-hero-title {
+    color: #282b2f;
+    font-size: 44px;
+    font-weight: 500;
+    line-height: 54px;
+}
+
+.section-img img {
+    height: 300px;
+    margin: 0;
+}
+
+.section-middle {
+    margin-bottom: 63px;
+}
+
+.section-middle-title {
+    color: #282b2f;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 38px;
+
+}
+
+.section-third {
+    border-bottom: 1px solid #e0e9f0;
+    margin-bottom: 50px;
+}
+
+.section-img {
+    margin: 0;
+}
+
+.section-table {
+    border-bottom: 1px solid #e0e9f0;
+    margin-bottom: 50px;
+}
+
+.section-desc {
+    margin-bottom: 30px;
+}
+
+
+.section-third-title {
+    color: #282b2f;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 38px
+}
