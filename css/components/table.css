@@ -17,3 +17,7 @@
 tr:nth-child(even) {
     background-color: #f8f8f8;
 }
+
+td, th {
+    padding: 10px 25px;
+}

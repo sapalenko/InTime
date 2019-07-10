@@ -1,0 +1,6 @@
+.article {
+    display: flex;
+    flex-flow: column;
+    flex-basis: 844px;
+    flex-shrink: 0;
+}
