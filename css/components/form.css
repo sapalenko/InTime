@@ -1,0 +1,110 @@
+.search-field {
+    position: absolute;
+    width: 379px;
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #e0e9f0;
+    background-color: #ffffff;
+    color: #bdc6ca;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+    padding: 22px;
+  }
+  
+  .button-search {
+    border: none;
+    margin-left: 310px;
+    position: relative;
+    background: none;
+    margin-top: 5px;
+    cursor: pointer;
+  }
+  
+  .button-bottom {
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #009688;
+    background-color: #ffffff;
+  }
+  
+  .img-search {
+    padding: 10px;
+  }
+  
+  .button-link {
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    font-weight: 600;
+  }
+  
+  .button-bottom:hover {
+    text-decoration: underline;
+  }
+  
+  .name-field {
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #e0e9f0;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .email-field {
+    height: 52px;
+    border-radius: 5px;
+    border: 2px solid #e0e9f0;
+    background-color: #ffffff;
+    width: 100%;
+    margin-bottom: 16px;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 300;
+  }
+  
+  .textarrea {
+    height: 140px;
+    border-radius: 5px;
+    border: 2px solid #e0e9f0;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 16px;
+    font-size: 16px;
+    font-weight: 300;
+    resize: none;
+  }
+  
+  .button-form {
+    height: 52px;
+    border-radius: 5px;
+    background-color: #009688;
+    width: 100%;
+    border: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .button-form:hover {
+    background-color: #fff;
+    color: #009688;
+    border: 3px solid #009688;
+  }
+  
+  .textarrea::placeholder,
+  .name-field::placeholder,
+  .email-field::placeholder,
+  .search-field::placeholder {
+    color: #bdc6ca;
+    font-family: Rubik;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 26px;
+  }

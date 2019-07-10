@@ -6,6 +6,7 @@
     <title>In Time</title>
     <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css?family=Rubik:300,300i,400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://i.icomoon.io/public/temp/bf5c402108/UntitledProject/style.css">
   </head>
 
   <body>
@@ -16,7 +17,7 @@
                 <a href="index.html" class="link-header"><span class="in">In</span>Time</a>
               </div>
               <div class="contact-info">
-                <img src="images/call-answer.png" alt="phone">
+                <img class="img-header" src="images/call-answer.png" alt="phone">
                 <ul class="list-contact">
                   <li class="list-number">+1 234 85 93</li>
                   <li class="list-number">+1 234 85 93</li>
@@ -132,6 +133,12 @@
                 </div>
           </article>
           <aside class="aside">
+            <form class="search-form">
+              <input class="search-field" type="text" placeholder="Поиск">
+              <button class="button-search" type="submit">
+                <img class="img-search" src="images/search.png" alt="search">
+              </button>
+            </form>
             <h2 class="aside-title">Новости</h2>
             <div class="card">
               <figure class="card-img">
@@ -160,10 +167,45 @@
                   <p class="card-desc">Приобрести наручные часы в модном дизайне могут не только состоятельные люди. Для массового рынка также выпускаются доступные по цене качественные модели женских часов таких известных брендов, как датский ювелирный дом «Пандора» и японская часовая компания «Кассио».</p>
                   <a href="#" class="link link-card">Читать полностью</a>
                 </div>
-          </aside>
+                <button class="button-bottom">
+                  <a href="#" class="button-link">Перейти ко всем новостям</a>
+                  <img src="images/left-arrow.png" alt="arrow">
+                </button>
+                <div class="section section-form">
+                  <h2 class="section-form-title">Связаться с нами</h2>
+                  <p class="section-desc">Вы можете связаться с нами по интересующим вопросам, написав нам:</p>
+                  <form action="" class="form">
+                      <input class="name-field" type="text" autocomplete="on" name="имя" placeholder="Имя">
+                      <input class="email-field" type="email" name="email" id="#" placeholder="E-mail">
+                      <textarea class="textarrea" name="textarrea" id="" placeholder="Текст сообщения"></textarea>
+                      <button class="button-form" type="submit">Отправить сообщение</button>
+                  </form>
+                </div>
+              </aside>
         </div>
       </div>
     </main>
+    <footer class="footer">
+        <div class="flex-container">
+          <div class="social-icon">
+            <ul class="list-social">
+              <li class="social-item">
+                <a class="link-social" href="#"><span class="icon-dribbble"></span></a>
+              </li>
+              <li class="social-item">
+                  <a class="link-social" href="#"><span class="icon-instagram"></span></a>
+              </li>
+              <li class="social-item">
+                  <a class="link-social" href="#"><span class="icon-facebook"></span></a>
+              </li>
+              <li class="social-item">
+                  <a class="link-social" href="#"><span class="icon-linkedin2"></span></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer-info">©InTime, 2019 Все права защищены</div>
+      </div>
+      </footer>
   </body>
   
 </html>

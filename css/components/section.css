@@ -36,17 +36,19 @@
 
 .section-table {
     border-bottom: 1px solid #e0e9f0;
-    margin-bottom: 50px;
+    margin-bottom: 98px;
 }
 
 .section-desc {
     margin-bottom: 30px;
 }
 
-
 .section-third-title {
     color: #282b2f;
     font-size: 22px;
     font-weight: 500;
     line-height: 38px
+}
+.section-form {
+    margin-top: 80px;
 }

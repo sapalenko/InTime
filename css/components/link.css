@@ -10,20 +10,20 @@ a, .link {
 }
 
 .link-italic {
-  color: #1976d2;
-  font-style: italic;
-  line-height: 28px;
-  text-decoration: underline;
+    color: #1976d2;
+    font-style: italic;
+    line-height: 28px;
+    text-decoration: underline;
 }
 
 .link-italic::before {
-  content: '';
-  display: inline-block;
-  width: 12px;
-  height: 2px;
-  background-color: #546e7a;
-  vertical-align: middle;
-  margin-right: 13px;
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 2px;
+    background-color: #546e7a;
+    vertical-align: middle;
+    margin-right: 13px;
 }
 
 .link-table {
@@ -39,4 +39,14 @@ a, .link {
 
 .link-card {
     padding-bottom: 29px;
+}
+
+.link-social {
+    text-decoration: none;
+    font-size: 20px;
+    color: #546e7a;
+}
+
+.link-social:hover {
+    color: #009688;
 }
