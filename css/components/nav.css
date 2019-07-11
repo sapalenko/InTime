@@ -4,6 +4,8 @@
     font-size: 18px;
     font-weight: 500;
     line-height: 54px;
+    flex-basis: 100%;
+    flex-grow: 0;
 }
 .nav .nav-item {
     color: #282b2f;
